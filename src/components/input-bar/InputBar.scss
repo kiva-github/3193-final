@@ -1,0 +1,16 @@
+input {
+    border: none;
+    border-radius: 22px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    height: 44px;
+    outline: none;
+    text-align: center;
+    width: 420px;
+}
+
+input::placeholder {
+    color: #FFFFFF;
+    opacity: 0.5;
+}

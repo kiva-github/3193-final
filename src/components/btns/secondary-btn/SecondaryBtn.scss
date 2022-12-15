@@ -1,0 +1,14 @@
+.secondary-btn {
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    filter: drop-shadow(2px 2px rgba(0,0,0,0.15));
+    width: 246px;
+
+    h4 {
+        font-size: 12px;
+        font-weight: 700;
+        padding: 12px 12px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,44 @@
+.collection-view-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        height: fit-content;
+
+        .card-preview-container {
+            opacity: 0.33;
+        }
+
+        .card-details-container {
+            display: flex;
+            justify-content: space-between;
+
+            .card-number {
+                align-items: center;
+                border: 1px solid #FFFFFF;
+                border-radius: 30px;
+                display: flex;
+                height: 30px;
+                width: fit-content;
+    
+                h5 {
+                    color: #FFFFFF;
+                    font-weight: 700;
+                    padding: 8px 18px;
+                }
+            }
+
+        }
+    }
+
+    .collected {
+        .card-preview-container {
+            opacity: 1.0;
+        }
+    }
+}

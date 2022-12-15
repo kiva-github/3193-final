@@ -1,0 +1,30 @@
+// X
+.sign-up-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+
+    .agreement {
+        color: #FFFFFF;
+        font-weight: 500;
+        margin: 0;
+        max-width: 300px;
+        text-align: center;
+    }
+    
+    .favorite-team-select {
+        border: none;
+        border-radius: 22px;
+        color: #FFFFFF;
+        height: 44px;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    select:focus {
+        outline: none;
+    }
+}

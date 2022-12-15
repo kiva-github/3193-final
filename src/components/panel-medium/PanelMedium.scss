@@ -1,0 +1,15 @@
+.panel-medium-wrap {
+    border-radius: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: fit-content;
+    min-height: 160px;
+    position: relative;
+    width: 294px;
+
+    .cover-image-container {
+        width: 80px;
+    }
+}

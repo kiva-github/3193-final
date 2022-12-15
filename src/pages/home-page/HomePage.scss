@@ -1,0 +1,84 @@
+.home-page-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding: 0px 100px;
+
+    .panels-container {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        
+        .panel-row-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .panel-row-header {
+                h2 {
+                    color: #FFFFFF;
+                }
+            }
+
+            .panel-row {
+                display: flex;
+                gap: 24px;
+
+                .add-card-panel {
+                    h3 {
+                        color: #FFFFFF;
+                        font-size: 20px;
+                        font-weight: 600;
+                        left: 24px;
+                        position: absolute;
+                        top: 24px;
+                    }
+                    img {
+                        bottom: 24px;
+                        height: 34px;
+                        position: absolute;
+                        right: 24px;
+                    }
+                }
+            }
+        }
+
+        .cards {
+            display: flex;
+            gap: 24px;
+
+            .card {
+                backdrop-filter: blur(8px);
+                -webkit-backdrop-filter: blur( 8px );
+                background: rgba( 255, 255, 255, 0.25 );
+                border-radius: 20px;
+                box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+                cursor: pointer;
+                height: 160px;
+                position: relative;
+                width: 294px;
+                
+                .card-content {
+                    bottom: 12px;
+                    position: absolute;
+                    right: 24px;
+                    width: fit-content;
+
+                    .add-icon {
+                        height: 40px;
+                        width: 40px;
+                    }
+                }
+
+                h3 {
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    font-weight: 500;
+                    padding-left: 24px;
+                    padding-top: 24px;
+                    margin: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 0px;
+
+    .left-content, .right-content {
+        align-items: center;
+        display: flex;
+    }
+
+    .left-content {
+        gap: 24px;
+    }
+
+    .right-content {
+        gap: 12px;
+
+        .acct-stats-container, .acct-tab-container {
+            display: flex;
+            gap: 12px;
+        }
+    }
+
+    h1 {
+        color: #FFFFFF;
+    }
+}

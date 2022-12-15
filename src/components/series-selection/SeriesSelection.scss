@@ -1,0 +1,15 @@
+.year-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    .series-container {
+        display: flex;
+        gap: 24px;
+    }
+
+    h2 {
+        color: #FFFFFF;
+        margin: 0;
+    }
+}

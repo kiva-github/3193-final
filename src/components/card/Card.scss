@@ -1,0 +1,34 @@
+.card-container {
+    cursor: pointer;
+    height: 250px;
+    width: 180px;
+
+    .card-img-placeholder {
+        align-items: center;
+        border: 2px solid #FFFFFF;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        height: 250px;
+        justify-content: center;
+        width: 100%;
+
+        .player-name-container {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            h4 {
+                color: #FFFFFF;
+                text-align: center;
+            }
+
+        }
+    }
+
+    img {
+        border-radius: 2px;
+        width: 100%;
+    }
+}

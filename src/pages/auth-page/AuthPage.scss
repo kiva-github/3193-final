@@ -1,0 +1,96 @@
+.auth-page-wrap {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+
+    .left-col {
+        position: relative;
+        transition: 0.2s;
+
+        .left-col-content {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            .logo-container {
+                margin-bottom: 48px;
+            }
+    
+            .toggle-container {
+                display: flex;
+                justify-content: center;
+                gap: 40px;
+                margin-bottom: 36px;
+                width: 420px;
+
+                .toggle-option {
+                    padding: 12px 0px;
+
+                    .underline {
+                        opacity: 1.0;
+                        position: relative; 
+                    }
+             
+                    .underline::after {
+                        background: #FFFFFF;
+                        bottom: -10px;
+                        content: '';
+                        height: 2px;
+                        left: 0;
+                        margin: 0 auto;
+                        position: absolute;
+                        right: 0;
+                        transition: 0.5s;
+                        width: 100%;
+                    }
+    
+                    h3 {
+                        color: #FFFFFF;
+                        cursor: pointer;
+                        font-weight: 600;
+                        font-size: 16px;
+                        margin: 0;
+                        opacity: 0.5;
+                    }
+    
+                    h3:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .logo-container {
+
+                img {
+                    width: 194px;
+                }
+            }
+        }
+    }
+
+    .right-col {
+        position: relative;
+        width: 50%;
+
+        .auth-image-container {
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            img {
+                
+                width: 500px;
+            }
+        }
+    }
+
+    .error {
+        color: #FFFFFF;
+        font-weight: 600;
+    }
+}

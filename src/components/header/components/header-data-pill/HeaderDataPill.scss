@@ -1,0 +1,19 @@
+.header-data-pill-wrap {
+    align-items: center;
+    border: 2px solid rgb(255, 255, 255, 0.33);
+    border-radius: 100px;
+    display: flex;
+    gap: 8px;
+    height: 40px;
+    padding: 0px 20px;
+
+    h5 {
+        color: #FFFFFF;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    img {
+        height: 16px;
+    }
+}

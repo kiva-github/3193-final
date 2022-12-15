@@ -1,0 +1,22 @@
+.acc-details-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 690px;
+    width: 100%;
+
+    .fav-team-container {
+        display: flex;
+        gap: 24px;
+        padding-top: 12px;
+
+        .fav-team-logo {
+            background-color :#FFFFFF;
+            border-radius: 22px;
+            height: 44px;
+            width: 44px;
+
+        }
+    }
+}

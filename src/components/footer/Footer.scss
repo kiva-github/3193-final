@@ -1,0 +1,21 @@
+footer {
+    align-items: center;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 48px 0px;
+
+    .footer-resources {
+        display: flex;
+        gap: 48px;
+    }
+
+    h6 {
+        font-weight: 400;
+    }
+
+    img {
+        width: 220px;
+    }
+}
